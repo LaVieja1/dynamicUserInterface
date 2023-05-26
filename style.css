@@ -65,3 +65,45 @@ body {
     text-decoration: none;
     display: block;
 }
+
+main {
+    margin: 200px auto;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+}
+  
+.mySlides {
+    display: none;
+}
+  
+.mySlides img {
+    width: 100%;
+    height: auto;
+}
+  
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+  
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
